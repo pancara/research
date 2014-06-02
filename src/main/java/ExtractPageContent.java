@@ -9,7 +9,7 @@ import java.io.PrintWriter;
 public class ExtractPageContent {
 
     public static final File source = new File(System.getProperty("user.dir"), "sample/ticket.pdf");
-    public static final File result = new File(System.getProperty("user.dir"), "sample/text.txt");
+    public static final File result = new File(System.getProperty("user.dir"), "result/ticket.txt");
 
     public void parsePdf(String pdf, String txt) throws IOException {
         PdfReader reader = new PdfReader(pdf);
